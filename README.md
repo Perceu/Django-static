@@ -24,6 +24,11 @@ para dar o build no projeto rode:
 python builder build 
 ```
 
+para dar o build de uma pagina de o comando :
+```
+python builder build pagina1 pagina2
+```
+
 
 
 
