@@ -1,2 +1,29 @@
-<h1>Pagina Inicial</h1>
-<p>Desenvolvida pelo Perceu</p>
+<div class="jumbotron">
+    <div class="container">
+        <h1>Bem Vindo ao nosso site</h1>
+        <p>Texto legal aqui</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Sobre</h2>
+            <p>{% lorem %}</p>
+        </div>
+        <div class="col-md-6">
+            <h2>Contato</h2>
+            <p>{% lorem %}</p>
+            <p>
+                <a href="{%url 'page' 'contact'%}" class="btn btn-default" role="button">
+                    Fale Conosco >>
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<hr>
+<footer>
+    <div class="container">
+        <p>&copy; Perceu Bertoletti {% now 'Y' %}</p>
+    </div>
+</footer>

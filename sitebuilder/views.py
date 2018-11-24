@@ -14,7 +14,6 @@ def get_page_or_404(name):
         if not os.path.exists(file_path):
             raise Http404('Pagina Não encontrada')
 
-
     with open(file_path,'r') as f:
         page = Template(f.read())
 
